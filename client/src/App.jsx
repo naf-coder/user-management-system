@@ -26,10 +26,10 @@ function App() {
           </div>
 
           {/* Right Section */}
-          <div className="w-full lg:w-1/2 flex flex-grow m-10">
-            <div className="w-full h-[90vh] bg-white border border-gray-300 rounded-lg shadow-lg overflow-y-auto py-2 ">
+          <div className="w-full lg:w-1/2 flex flex-grow m-5">
+            <div className="w-full h-[90vh] bg-white border border-gray-300 rounded-lg shadow-lg overflow-y-auto py-2">
               {userData.length > 0 ? (
-                <div className="flex flex-wrap gap-4 justify-center">
+                <div className="flex flex-wrap gap-2">
                   {userData.map((item) => (
                     <Card
                       user={item}
